@@ -1,0 +1,14 @@
+Package: dsGeoClient
+Type: Package
+Title: DataSHIELD client side geospatial functions
+Version: 0.1.0
+Date: 2020-04-01
+Authors@R: c(person("Tom", "Bishop", ,"trpb2@cantab.net", role = c("aut", "cre")))
+Description: DataSHIELD client side geospatial functions.
+Depends: R (>= 3.6)
+Imports:
+    DSI,
+    parallel
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 6.1.1
