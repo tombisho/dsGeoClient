@@ -29,10 +29,10 @@ ds.over = function(input_x=NULL, input_y=NULL, retList = FALSE, fun = NULL,  new
   }
 
   if(is.null(newobj.name)){
-    newobj.name <- paste0(input,".over")
+    newobj.name <- paste0(input_x,".over")
   }
 
-  calltext <- call("overDS", input_X, input_y, retList, fun)
+  calltext <- call("overDS", input_x, input_y, retList, fun)
   DSI::datashield.assign(datasources, newobj.name, calltext)
 
 }

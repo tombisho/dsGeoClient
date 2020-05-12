@@ -2,6 +2,7 @@
 
 export(ds.gBuffer)
 export(ds.geoSummary)
+export(ds.lapply)
 export(ds.over)
 export(ds.proj4string)
 export(ds.spTransform)
