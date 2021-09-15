@@ -14,7 +14,7 @@ ds.geoSummary = function(input=NULL, datasources=NULL) {
   ##################################################################################
   # look for DS connections
   if(is.null(datasources)){
-    datasources <- datashield.connections_find()
+    datasources <- DSI::datashield.connections_find()
   }
 
   if(is.null(input)){

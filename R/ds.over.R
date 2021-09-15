@@ -21,7 +21,7 @@ ds.over = function(input_x=NULL, input_y=NULL, retList = FALSE, fun = NULL,  new
   ##################################################################################
   # look for DS connections
   if(is.null(datasources)){
-    datasources <- datashield.connections_find()
+    datasources <- DSI::datashield.connections_find()
   }
 
   if(is.null(input_x)|is.null(input_y)){

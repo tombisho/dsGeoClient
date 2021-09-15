@@ -4,8 +4,12 @@
 \alias{ds.spTransform}
 \title{#' @title Wrapper for \code{spTransform()} function from sp and rgeos packages}
 \usage{
-ds.spTransform(input = NULL, projStr = NULL, newobj.name = NULL,
-  datasources = NULL)
+ds.spTransform(
+  input = NULL,
+  projStr = NULL,
+  newobj.name = NULL,
+  datasources = NULL
+)
 }
 \arguments{
 \item{input}{name of a spatial object on the server side to which the buffer will be applied}
