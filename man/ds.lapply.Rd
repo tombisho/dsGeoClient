@@ -4,8 +4,7 @@
 \alias{ds.lapply}
 \title{Wrapper for \code{lapply()} function}
 \usage{
-ds.lapply(input = NULL, fun = NULL, newobj.name = NULL,
-  datasources = NULL)
+ds.lapply(input = NULL, fun = NULL, newobj.name = NULL, datasources = NULL)
 }
 \arguments{
 \item{input}{name of a list}

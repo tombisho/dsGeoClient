@@ -4,8 +4,12 @@
 \alias{ds.proj4string}
 \title{Wrapper for \code{proj4string()} function from sp and rgeos packages}
 \usage{
-ds.proj4string(input = NULL, projStr = NULL, newobj.name = NULL,
-  datasources = NULL)
+ds.proj4string(
+  input = NULL,
+  projStr = NULL,
+  newobj.name = NULL,
+  datasources = NULL
+)
 }
 \arguments{
 \item{input}{name of a spatial object on the server side to which the buffer will be applied}

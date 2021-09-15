@@ -4,8 +4,14 @@
 \alias{ds.over}
 \title{Wrapper for \code{over()} function from sp and rgeos packages}
 \usage{
-ds.over(input_x = NULL, input_y = NULL, retList = FALSE,
-  fun = NULL, newobj.name = NULL, datasources = NULL)
+ds.over(
+  input_x = NULL,
+  input_y = NULL,
+  retList = FALSE,
+  fun = NULL,
+  newobj.name = NULL,
+  datasources = NULL
+)
 }
 \arguments{
 \item{input_x}{name of a spatial object on the server side to which the over will be applied}

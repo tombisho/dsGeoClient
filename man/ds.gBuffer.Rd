@@ -4,8 +4,13 @@
 \alias{ds.gBuffer}
 \title{#' @title Wrapper for \code{gBuffer()} function from sp and rgeos packages}
 \usage{
-ds.gBuffer(input = NULL, by_id = FALSE, ip_width = NULL,
-  newobj.name = NULL, datasources = NULL)
+ds.gBuffer(
+  input = NULL,
+  by_id = FALSE,
+  ip_width = NULL,
+  newobj.name = NULL,
+  datasources = NULL
+)
 }
 \arguments{
 \item{input}{name of a spatial object on the server side to which the buffer will be applied}
